@@ -1,0 +1,51 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"textures": {
+			"texture": "traverse:block/log/fir_log_side"
+		},
+		"model": "fence_post",
+		"uvlock": true
+	},
+	"variants": {
+		"inventory": [
+			{
+				"model": "fence_inventory",
+				"textures": {
+					"texture": "traverse:block/planks/fir_planks"
+				}
+			}
+		],
+		"east": {
+			"true": {
+                "textures": { "texture": "traverse:block/planks/fir_planks" },
+				"submodel": "fence_side",
+				"y": 90
+			},
+			"false": { }
+		},
+		"north": {
+			"true": {
+				"textures": { "texture": "traverse:block/planks/fir_planks" },
+                "submodel": "fence_side"
+			},
+			"false": { }
+		},
+		"south": {
+			"true": {
+				"textures": { "texture": "traverse:block/planks/fir_planks" },
+                "submodel": "fence_side",
+				"y": 180
+			},
+			"false": { }
+		},
+		"west": {
+			"true": {
+				"textures": { "texture": "traverse:block/planks/fir_planks" },
+                "submodel": "fence_side",
+				"y": 270
+			},
+			"false": { }
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{"forge_marker": 1,
+"defaults": {
+"model": "wtfcore:cube_overlay",
+"textures": {"all": "quark:blocks/stone_limestone"}
+},
+"variants": {
+"normal": [{}],
+"inventory": [{"textures" : { "mask" : "wtfcore:overlays/nitre_ore_limestone0"}}],
+"density" : {
+"0" : { "textures" : { "mask" : "wtfcore:overlays/nitre_ore_limestone0"}},
+"1" : { "textures" : { "mask" : "wtfcore:overlays/nitre_ore_limestone1"}},
+"2" : { "textures" : { "mask" : "wtfcore:overlays/nitre_ore_limestone2"}}
+}}}

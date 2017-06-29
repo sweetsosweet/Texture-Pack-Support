@@ -1,0 +1,13 @@
+{"forge_marker": 1,
+"defaults": {
+"model": "wtfcore:cube_overlay",
+"textures": {"all": "rustic:blocks/slate"}
+},
+"variants": {
+"normal": [{}],
+"inventory": [{"textures" : { "mask" : "wtfcore:overlays/iron_ore_slate0"}}],
+"density" : {
+"0" : { "textures" : { "mask" : "wtfcore:overlays/iron_ore_slate0"}},
+"1" : { "textures" : { "mask" : "wtfcore:overlays/iron_ore_slate1"}},
+"2" : { "textures" : { "mask" : "wtfcore:overlays/iron_ore_slate2"}}
+}}}

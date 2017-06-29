@@ -1,0 +1,18 @@
+{"forge_marker": 1,
+
+"defaults": {
+
+"model": "forge:multi-layer",
+
+"transform": "forge:default-block"},
+"variants": {
+"inventory0": [{"custom": { "base": "quark:limestone#stone_limestone", "Solid": "quark:limestone#stone_limestone", "Translucent": "wtfcore:base#moss" }}],
+"inventory1": [{"custom": { "base": "quark:limestone#stone_limestone", "Solid": "quark:limestone#stone_limestone", "Translucent": "wtfcore:base#soul" }}],
+"inventory2": [{"custom": { "base": "quark:limestone#stone_limestone", "Solid": "quark:limestone#stone_limestone", "Translucent": "wtfcore:base#cracked" }}],
+"type" : {
+"moss": {"custom": { "base": "quark:limestone#stone_limestone", "Solid": "quark:limestone#stone_limestone", "Translucent": "wtfcore:base#moss" }},
+"soul": {"custom": { "base": "quark:limestone#stone_limestone", "Solid": "quark:limestone#stone_limestone", "Translucent": "wtfcore:base#soul" }},
+"cracked": {"custom": { "base": "quark:limestone#stone_limestone", "Solid": "quark:limestone#stone_limestone", "Translucent": "wtfcore:base#cracked" }}
+}
+}
+}

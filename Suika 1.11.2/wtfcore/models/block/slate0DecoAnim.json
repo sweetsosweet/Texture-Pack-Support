@@ -1,0 +1,15 @@
+{"forge_marker": 1,
+"defaults": {
+"model": "forge:multi-layer",
+"transform": "forge:default-block"},
+"variants": {
+"inventory0": [{"custom": { "base": "rustic:slate", "Solid": "rustic:slate", "Translucent": "wtfcore:base#lava" }}],
+"inventory1": [{"custom": { "base": "rustic:slate", "Solid": "rustic:slate" }}],
+"inventory2": [{"custom": { "base": "rustic:slate", "Solid": "rustic:slate" }}],
+"type" : {
+"lava_crust": {"custom": { "base": "rustic:slate", "Solid": "rustic:slate", "Translucent": "wtfcore:base#lava" }},
+"drip_water": {"custom": { "base": "rustic:slate", "Solid": "rustic:slate"}},
+"drip_lava": {"custom": { "base": "rustic:slate", "Solid": "rustic:slate"}}
+},
+"fast" : {"true" : {},"false" : {}
+}}}

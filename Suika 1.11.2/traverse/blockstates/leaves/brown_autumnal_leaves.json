@@ -1,0 +1,21 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"textures": {
+			"all": "traverse:block/leaves/brown_autumnal_leaves"
+		},
+		"model": "leaves",
+		"uvlock": false
+	},
+	"variants": {
+		"inventory": [
+			{ "model": "leaves" }
+		],
+		"normal": [
+            { "model": "leaves" },
+            { "model": "leaves_mirrored" },
+            { "model": "leaves", "y": 180 },
+            { "model": "leaves_mirrored", "y": 180 }
+        ]
+	}
+}
